@@ -1,0 +1,30 @@
+{
+  "name": "star-wars-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/script/index.js",
+  "scripts": {
+    "start": "node src/script/index.js",
+    "test": "mocha --timeout 50000 __test__/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "es5",
+    "endOfLine": "lf",
+    "tabWidth": 2,
+    "printWidth": 80,
+    "bracketSpacing": true
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
