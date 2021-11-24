@@ -2,6 +2,19 @@
 
 > Status do Projeto: Em desenvolvimento :warning:
 
+## Iniciar o projeto
+
+```
+>>> Instalar dependências
+
+npm install
+
+>>> Executar testes unitários
+
+npm run test
+
+```
+
 ## Descrição do Projeto
 
 O projeto é uma listagem de personagens e os seis primeiros filmes da franquia Star Wors...
@@ -16,15 +29,15 @@ O projeto é uma listagem de personagens e os seis primeiros filmes da franquia 
 ```
 >>> Nome do Personagem
 
-node . -n r2-d2
+npm run stars -n r2-d2
 
-node . --nome  r2-d2
+npm run stars --nome  r2-d2
 
 >>> Qual o filme (exemplo 1)
 
-node . -f 1
+npm run stars -f 1
 
-node . --filme 1
+npm run stars --filme 1
 
 ```
 
@@ -35,20 +48,3 @@ node . --filme 1
 :rocket:
 
 > Em desenvolvimento :warning:
-
-## Iniciar o projeto
-
-```
->>> Instalar dependências
-
-npm install
-
->>> Executar testes unitários
-
-npm run test
-
->>> Executar projeto
-
-npm run start
-
-```

@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/script/index.js",
   "scripts": {
-    "start": "node src/script/index.js",
+    "stars": "node src/script/index.js",
     "test": "mocha --timeout 50000 __test__/test.js"
   },
   "keywords": [],
