@@ -4,6 +4,7 @@ const URL = 'https://swapi.dev/api';
 
 export async function obterPersonagem(name) {
   const url = `${URL}/people/?search=${name}`;
+  console.log(url);
   const { data } = await axios.get(url);
 
   return data.results.map(mapearPersonagem);
