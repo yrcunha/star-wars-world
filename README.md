@@ -17,14 +17,14 @@ npm run test
 
 ## Descrição do Projeto
 
-O projeto é uma listagem de personagens e os seis primeiros filmes da franquia Star Wors...
+O projeto é uma listagem de personagens e/ou filmes da franquia Star Wors...
 
 - [x] listar personagem por nome
 - [x] listar filme por número do filme
 
 :rocket: Primeira versão
 
-> A listagem é feita por linha de comando
+> A listagem será feita por linha de comando
 
 ```
 >>> Nome do Personagem
